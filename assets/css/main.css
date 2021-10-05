@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto 0 auto;
+
+    border: 1px solid red;
+    display: flex;
+}
+
+.hero-section {
+    padding-top: 120px;
+    background-color: #FAF3DE;
+    height: 70vh;
+}
+
+.hero-section .container {
+    height: 100%;
+    align-items: center;
+}
+
+.hero-section .container div {
+    width: 100%;
+    border: 1px solid blue;
+}
+
+.hero-section .hero-content-right {
+    text-align: center;
+}
+
+header .container {
+    height: 120px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    font-weight: 700;
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+
+.navigation ul {
+    list-style: none;
+    display: flex;
+}
+
+.navigation ul li {
+    margin-left: 2rem;
+}
+
+.navigation ul li a {
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    color: #69502F;
+    letter-spacing: 1px;
+    transition: all 0.4s;
+}
+
+.navigation ul li a.active, .navigation ul li a:hover {
+    background-color: #E7C157;
+    color: white;
+    border-radius: 10rem;
+}
+
+h2 {
+    font-size: 3rem;
+    color: #69502F;
+    line-height: 1.2;
+    margin-bottom: 0.4rem;
+}
+
+h3 {
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-bottom: 3rem;
+}
+
+/* ALL BUTTONS */
+.button {
+    background-color: #E7C157;
+    color: #69502F;
+    border-radius: 10rem;
+    padding: 1rem 2rem;
+    display: inline-block;
+    font-weight: 600;
+}
+
+.content {
+    padding: 4rem 0;
+}
